@@ -1,0 +1,127 @@
+
+"19-Dec-22 14:33:37"-Dec-22 14:33:37" - root - INFO - run_presc_pipeline is Started ...
+"19-Dec-22 14:33:37"-Dec-22 14:33:37" - root - INFO - main() is started ...
+"19-Dec-22 14:33:37"-Dec-22 14:33:37" - create_objects - INFO - get_spark_object() is started. The 'TEST' envn is used.
+"19-Dec-22 14:33:58"-Dec-22 14:33:58" - create_objects - INFO - Spark Object is created ...
+"19-Dec-22 14:34:10"-Dec-22 14:34:10" - validations - INFO - Validate the Spark object by printing Current Date - [Row(current_date()=datetime.date(2022, 12, 19))]
+"19-Dec-22 14:34:10"-Dec-22 14:34:10" - validations - INFO - Spark object is validated. Spark Object is ready.
+"19-Dec-22 14:34:10"-Dec-22 14:34:10" - root - ERROR - Error Occured in the main() method. Please check the Stack Trace to go to the respective module and fix it.local variable 'file_format' referenced before assignment
+Traceback (most recent call last):
+  File "/home/ankit/PycharmProjects/etl1/src/main/python/bin/main_run_pipeline.py", line 38, in main
+    df_charges = load_files(spark=spark, file_dir=file_dir_charges, file_format=file_format, header=header,
+UnboundLocalError: local variable 'file_format' referenced before assignment
+"19-Dec-22 14:36:32"-Dec-22 14:36:32" - root - INFO - run_presc_pipeline is Started ...
+"19-Dec-22 14:36:32"-Dec-22 14:36:32" - root - INFO - main() is started ...
+"19-Dec-22 14:36:32"-Dec-22 14:36:32" - create_objects - INFO - get_spark_object() is started. The 'TEST' envn is used.
+"19-Dec-22 14:36:45"-Dec-22 14:36:45" - create_objects - INFO - Spark Object is created ...
+"19-Dec-22 14:36:55"-Dec-22 14:36:55" - validations - INFO - Validate the Spark object by printing Current Date - [Row(current_date()=datetime.date(2022, 12, 19))]
+"19-Dec-22 14:36:55"-Dec-22 14:36:55" - validations - INFO - Spark object is validated. Spark Object is ready.
+"19-Dec-22 14:36:55"-Dec-22 14:36:55" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 14:37:01"-Dec-22 14:37:01" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Charges/Charges_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 14:37:02"-Dec-22 14:37:02" - root - INFO - presc_run_pipeline.py is Completed.
+"19-Dec-22 14:38:31"-Dec-22 14:38:31" - root - INFO - run_presc_pipeline is Started ...
+"19-Dec-22 14:38:31"-Dec-22 14:38:31" - root - INFO - main() is started ...
+"19-Dec-22 14:38:31"-Dec-22 14:38:31" - create_objects - INFO - get_spark_object() is started. The 'TEST' envn is used.
+"19-Dec-22 14:38:42"-Dec-22 14:38:42" - create_objects - INFO - Spark Object is created ...
+"19-Dec-22 14:38:51"-Dec-22 14:38:51" - validations - INFO - Validate the Spark object by printing Current Date - [Row(current_date()=datetime.date(2022, 12, 19))]
+"19-Dec-22 14:38:51"-Dec-22 14:38:51" - validations - INFO - Spark object is validated. Spark Object is ready.
+"19-Dec-22 14:38:51"-Dec-22 14:38:51" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 14:38:55"-Dec-22 14:38:55" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Charges/Charges_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 14:38:56"-Dec-22 14:38:56" - root - INFO - presc_run_pipeline.py is Completed.
+"19-Dec-22 14:39:46"-Dec-22 14:39:46" - root - INFO - run_presc_pipeline is Started ...
+"19-Dec-22 14:39:46"-Dec-22 14:39:46" - root - INFO - main() is started ...
+"19-Dec-22 14:39:46"-Dec-22 14:39:46" - create_objects - INFO - get_spark_object() is started. The 'TEST' envn is used.
+"19-Dec-22 14:39:56"-Dec-22 14:39:56" - create_objects - INFO - Spark Object is created ...
+"19-Dec-22 14:40:05"-Dec-22 14:40:05" - validations - INFO - Validate the Spark object by printing Current Date - [Row(current_date()=datetime.date(2022, 12, 19))]
+"19-Dec-22 14:40:05"-Dec-22 14:40:05" - validations - INFO - Spark object is validated. Spark Object is ready.
+"19-Dec-22 14:40:05"-Dec-22 14:40:05" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 14:40:09"-Dec-22 14:40:09" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Charges/Charges_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 14:40:10"-Dec-22 14:40:10" - root - INFO - presc_run_pipeline.py is Completed.
+"19-Dec-22 14:45:25"-Dec-22 14:45:25" - root - INFO - run_presc_pipeline is Started ...
+"19-Dec-22 14:45:25"-Dec-22 14:45:25" - root - INFO - main() is started ...
+"19-Dec-22 14:45:25"-Dec-22 14:45:25" - create_objects - INFO - get_spark_object() is started. The 'TEST' envn is used.
+"19-Dec-22 14:45:36"-Dec-22 14:45:36" - create_objects - INFO - Spark Object is created ...
+"19-Dec-22 14:45:45"-Dec-22 14:45:45" - validations - INFO - Validate the Spark object by printing Current Date - [Row(current_date()=datetime.date(2022, 12, 19))]
+"19-Dec-22 14:45:45"-Dec-22 14:45:45" - validations - INFO - Spark object is validated. Spark Object is ready.
+"19-Dec-22 14:45:45"-Dec-22 14:45:45" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 14:45:49"-Dec-22 14:45:49" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Charges/Charges_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 14:45:50"-Dec-22 14:45:50" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 14:45:51"-Dec-22 14:45:51" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Damages/Damages_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 14:45:51"-Dec-22 14:45:51" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 14:45:53"-Dec-22 14:45:53" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Endorse/Endorse_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 14:45:53"-Dec-22 14:45:53" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 14:45:54"-Dec-22 14:45:54" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Restrict/Restrict_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 14:45:55"-Dec-22 14:45:55" - root - INFO - presc_run_pipeline.py is Completed.
+"19-Dec-22 17:40:38"-Dec-22 17:40:38" - root - INFO - run_presc_pipeline is Started ...
+"19-Dec-22 17:40:38"-Dec-22 17:40:38" - root - INFO - main() is started ...
+"19-Dec-22 17:40:38"-Dec-22 17:40:38" - create_objects - INFO - get_spark_object() is started. The 'TEST' envn is used.
+"19-Dec-22 17:40:48"-Dec-22 17:40:48" - create_objects - INFO - Spark Object is created ...
+"19-Dec-22 17:40:57"-Dec-22 17:40:57" - validations - INFO - Validate the Spark object by printing Current Date - [Row(current_date()=datetime.date(2022, 12, 19))]
+"19-Dec-22 17:40:57"-Dec-22 17:40:57" - validations - INFO - Spark object is validated. Spark Object is ready.
+"19-Dec-22 17:40:57"-Dec-22 17:40:57" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 17:41:01"-Dec-22 17:41:01" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Charges/Charges_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 17:41:02"-Dec-22 17:41:02" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 17:41:03"-Dec-22 17:41:03" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Damages/Damages_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 17:41:03"-Dec-22 17:41:03" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 17:41:05"-Dec-22 17:41:05" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Endorse/Endorse_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 17:41:05"-Dec-22 17:41:05" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 17:41:07"-Dec-22 17:41:07" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/dim/Restrict/Restrict_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 17:41:07"-Dec-22 17:41:07" - validations - INFO - The DataFrame Validation by count df_count() is started for Dataframe df_city...
+"19-Dec-22 17:41:09"-Dec-22 17:41:09" - validations - INFO - The DataFrame count is 116110.
+"19-Dec-22 17:41:09"-Dec-22 17:41:09" - validations - INFO - The DataFrame Validation by count df_count() is completed.
+"19-Dec-22 17:41:09"-Dec-22 17:41:09" - validations - INFO - The DataFrame Validation by top 10 record df_top10_rec() is started for Dataframe df_city...
+"19-Dec-22 17:41:09"-Dec-22 17:41:09" - validations - INFO - The DataFrame top 10 records are:.
+"19-Dec-22 17:41:10"-Dec-22 17:41:10" - validations - INFO - 
+ 	 CRASH_ID  UNIT_NBR  PRSN_NBR                                   CHARGE CITATION_NBR
+ 14768622         1         1                DRIVING WHILE INTOXICATED         None
+ 14838637         1         1                                      DWI   1600000015
+ 14838641         1         1         RAN RED LIGHT SOLID (TC 544.007)       L20440
+ 14838641         2         1          NO DRIVER'S LICENSE (TC521.025)       L23141
+ 14838668         1         1                DRIVING WHILE INTOXICATED TX4IC50SRJD3
+ 14838669         2         1                          DWI W/BAC >.015  2015-000006
+ 14838670         1         1                DRIVING WHILE INTOXICATED  2016-000003
+ 14838685         1         1 FAILED TO DRIVE SINGLE LANE, NOL, NO INS    138434825
+ 14838693         1         1                DRIVING WHILE INTOXICATED TX4IC60UKQND
+ 14838768         2         1                                      DWI         None
+"19-Dec-22 17:41:10"-Dec-22 17:41:10" - validations - INFO - The DataFrame Validation by top 10 record df_top10_rec() is completed.
+"19-Dec-22 17:41:10"-Dec-22 17:41:10" - validations - INFO - The DataFrame Validation by count df_count() is started for Dataframe df_city...
+"19-Dec-22 17:41:10"-Dec-22 17:41:10" - validations - INFO - The DataFrame count is 24950.
+"19-Dec-22 17:41:10"-Dec-22 17:41:10" - validations - INFO - The DataFrame Validation by count df_count() is completed.
+"19-Dec-22 17:41:10"-Dec-22 17:41:10" - validations - INFO - The DataFrame Validation by top 10 record df_top10_rec() is started for Dataframe df_city...
+"19-Dec-22 17:41:10"-Dec-22 17:41:10" - validations - INFO - The DataFrame top 10 records are:.
+"19-Dec-22 17:41:11"-Dec-22 17:41:11" - validations - INFO - 
+ 	 CRASH_ID                  DAMAGED_PROPERTY
+ 14768622                           MAILBOX
+ 14768622                       YARD, GRASS
+ 14838668                         GUARDRAIL
+ 14838685                         ROAD SIGN
+ 14838693                      2009 MAZDA 3
+ 14838834                  CHAIN LINK FENCE
+ 14838841 WOODED POLE ON SOUTH SIDE OF LOOP
+ 14838842          CITY SIGN FOR TURN LANES
+ 14838877                  FENCE-CHAIN LINK
+ 14838977        LANDSCAPING AND METAL SIGN
+"19-Dec-22 17:41:11"-Dec-22 17:41:11" - validations - INFO - The DataFrame Validation by top 10 record df_top10_rec() is completed.
+"19-Dec-22 17:41:11"-Dec-22 17:41:11" - validations - INFO - The DataFrame Validation by count df_count() is started for Dataframe df_city...
+"19-Dec-22 17:41:11"-Dec-22 17:41:11" - validations - INFO - The DataFrame count is 159852.
+"19-Dec-22 17:41:11"-Dec-22 17:41:11" - validations - INFO - The DataFrame Validation by count df_count() is completed.
+"19-Dec-22 17:41:11"-Dec-22 17:41:11" - validations - INFO - The DataFrame Validation by top 10 record df_top10_rec() is started for Dataframe df_city...
+"19-Dec-22 17:41:11"-Dec-22 17:41:11" - validations - INFO - The DataFrame top 10 records are:.
+"19-Dec-22 17:41:12"-Dec-22 17:41:12" - validations - INFO - 
+ 	 CRASH_ID  UNIT_NBR    DRVR_LIC_RESTRIC_ID
+ 14768622         1                   NONE
+ 14838637         1     OTHER/OUT OF STATE
+ 14838637         2                   NONE
+ 14838641         1 WITH CORRECTIVE LENSES
+ 14838641         2             UNLICENSED
+ 14838668         1                   NONE
+ 14838669         1                   NONE
+ 14838669         2 WITH CORRECTIVE LENSES
+ 14838670         1                   NONE
+ 14838685         1             UNLICENSED
+"19-Dec-22 17:41:12"-Dec-22 17:41:12" - validations - INFO - The DataFrame Validation by top 10 record df_top10_rec() is completed.
+"19-Dec-22 17:41:12"-Dec-22 17:41:12" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 17:41:16"-Dec-22 17:41:16" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/fact/Unit/Units_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 17:41:17"-Dec-22 17:41:17" - run_data_ingest - INFO - load_files() is Started ...
+"19-Dec-22 17:41:19"-Dec-22 17:41:19" - run_data_ingest - INFO - The input File /home/ankit/PycharmProjects/etl1/src/main/python/bin/../staging/fact/Person/Primary_Person_use.csv is loaded to the data frame. The load_files() Function is completed.
+"19-Dec-22 17:41:20"-Dec-22 17:41:20" - root - INFO - presc_run_pipeline.py is Completed.
